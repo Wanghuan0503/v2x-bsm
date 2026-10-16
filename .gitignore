@@ -1,0 +1,12 @@
+# 本机依赖目录（用 pip install -r requirements.txt 替代）
+.deps/
+
+# pytest
+.pytest_cache/
+__pycache__/
+*.py[cod]
+
+# 测试产物
+report.html
+report_*.json
+!report_50obu.json

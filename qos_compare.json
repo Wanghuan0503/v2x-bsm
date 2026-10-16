@@ -1,0 +1,69 @@
+{
+  "config": {
+    "obus": 50,
+    "hz": 10.0,
+    "seconds": 10.0
+  },
+  "results": [
+    {
+      "qos": 0,
+      "elapsed_s": 10.0,
+      "sent": 5049,
+      "received": 5049,
+      "undecodable": 0,
+      "invalid": 0,
+      "loss": 0,
+      "duplicate": 0,
+      "out_of_order": 0,
+      "loss_rate_percent": 0.0,
+      "latency_p50": 0.0,
+      "latency_p95": 1.0,
+      "latency_p99": 1.0,
+      "latency_max": 2.0,
+      "latency_mean": 0.446,
+      "cpu_seconds": 2.719,
+      "cpu_us_per_msg": 538.47,
+      "msg_per_sec": 504.9
+    },
+    {
+      "qos": 1,
+      "elapsed_s": 10.0,
+      "sent": 5057,
+      "received": 5057,
+      "undecodable": 0,
+      "invalid": 0,
+      "loss": 0,
+      "duplicate": 0,
+      "out_of_order": 0,
+      "loss_rate_percent": 0.0,
+      "latency_p50": 1.0,
+      "latency_p95": 1.0,
+      "latency_p99": 2.0,
+      "latency_max": 3.0,
+      "latency_mean": 0.735,
+      "cpu_seconds": 5.312,
+      "cpu_us_per_msg": 1050.52,
+      "msg_per_sec": 505.7
+    },
+    {
+      "qos": 2,
+      "elapsed_s": 10.0,
+      "sent": 5054,
+      "received": 5054,
+      "undecodable": 0,
+      "invalid": 0,
+      "loss": 0,
+      "duplicate": 0,
+      "out_of_order": 0,
+      "loss_rate_percent": 0.0,
+      "latency_p50": 1.0,
+      "latency_p95": 2.0,
+      "latency_p99": 2.0,
+      "latency_max": 24.0,
+      "latency_mean": 1.043,
+      "cpu_seconds": 5.922,
+      "cpu_us_per_msg": 1171.72,
+      "msg_per_sec": 505.4
+    }
+  ]
+}

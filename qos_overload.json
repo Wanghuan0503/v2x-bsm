@@ -1,0 +1,49 @@
+{
+  "config": {
+    "obus": 50,
+    "hz": 100.0,
+    "seconds": 3.0
+  },
+  "results": [
+    {
+      "qos": 0,
+      "elapsed_s": 3.002,
+      "sent": 15969,
+      "received": 15969,
+      "undecodable": 0,
+      "invalid": 0,
+      "loss": 0,
+      "duplicate": 0,
+      "out_of_order": 0,
+      "loss_rate_percent": 0.0,
+      "latency_p50": 2240.0,
+      "latency_p95": 2765.0,
+      "latency_p99": 2814.0,
+      "latency_max": 2824.0,
+      "latency_mean": 2175.784,
+      "cpu_seconds": 7.344,
+      "cpu_us_per_msg": 459.88,
+      "msg_per_sec": 5319.9
+    },
+    {
+      "qos": 1,
+      "elapsed_s": 3.001,
+      "sent": 32128,
+      "received": 31508,
+      "undecodable": 0,
+      "invalid": 0,
+      "loss": 0,
+      "duplicate": 0,
+      "out_of_order": 0,
+      "loss_rate_percent": 0.0,
+      "latency_p50": 8811.0,
+      "latency_p95": 9370.0,
+      "latency_p99": 9432.0,
+      "latency_max": 9457.0,
+      "latency_mean": 8619.053,
+      "cpu_seconds": 13.891,
+      "cpu_us_per_msg": 440.86,
+      "msg_per_sec": 10498.6
+    }
+  ]
+}

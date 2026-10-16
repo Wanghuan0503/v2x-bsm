@@ -1,0 +1,34 @@
+{
+  "config": {
+    "obus": 50,
+    "hz": 10.0,
+    "seconds": 30.0,
+    "qos": 0
+  },
+  "elapsed_seconds": 30.0,
+  "expected": 15000.1,
+  "sent_total": 15049,
+  "report": {
+    "received": 15049,
+    "undecodable": 0,
+    "invalid": 0,
+    "latency_ms": {
+      "count": 15049,
+      "min": 0.0,
+      "mean": 0.4928566682171573,
+      "p50": 0.0,
+      "p90": 1.0,
+      "p95": 1.0,
+      "p99": 1.0,
+      "max": 3.0
+    },
+    "sequence": {
+      "received": 15049,
+      "loss": 0,
+      "duplicate": 0,
+      "out_of_order": 0
+    },
+    "obu_count": 50
+  },
+  "loss_rate_percent": 0.0
+}
